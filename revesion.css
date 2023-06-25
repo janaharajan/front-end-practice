@@ -1,0 +1,72 @@
+.outer_content{
+			background-color: white;
+			display: flex;
+
+		}
+		.inner_box1{ 
+			height: 400px;
+/*			width: 50px;*/
+			flex-grow: 1;
+		background-color:yellow;
+		padding-top: 20px;
+		 }
+		 .inner_box2{
+		 	padding-top: 20px;
+			height: 400px;
+			width: 500px;
+			flex-grow: 1;
+			background-color:yellow;
+			border-bottom-right-radius: 100px;
+			border-top-right-radius: 100px;
+		 }
+		 .inner_box1_image_cls{
+		 	padding-left: 50px;
+		 	justify-content: stretch;
+		 }
+		 .an_text{
+		 	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+		 	font-size: 70px;
+}
+.navigation ul li {
+	display: inline;
+	list-style: none;
+}
+.navigation ul li a{
+	text-decoration: none;
+	font-size: 25px;
+	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif; 
+	padding-left: 60px;
+	color: black;
+
+}
+.navigation ul li a:hover{
+	border-bottom-style:   outset;
+}
+.content{
+/*	background-color: red;*/
+display: flex;
+}
+.text_area{
+/*	background-color: cadetblue;*/
+/*	padding-right: 400px;*/
+	text-align: justify;
+	padding-left: 50px;
+}
+.enquire{
+/*	background-color: lightsalmon;*/
+/*	flex-grow: 1;*/
+	padding-left: 200px;
+/*	margin-left:100px ;*/
+}
+.h4{
+	font-size: 40px;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans serif;
+	text-align: center;
+	color: #0F007FFF;
+}
+.footer{
+	background-color: black;
+	color: white;
+	padding: 50px;
+	font-size: 20px;
+}
