@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="radio.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <div id="my_button"> -->
+        <div class="light-mode-seperate-class">
+        <input type="radio" name="my_option" value="light_mode" onclick="operational()"
+        style="height:20px; width:35px;" id="a">
+        <label for="light_mode" id="light_mode_label">Light</label>
+        </div>
+        <div class="dark-mode-seperate-class">
+        <input type="radio" name="my_option" value="dark_mode"onclick="operational()"
+        style="height:20px; width:35px;" id="b">
+        <label for="dark_mode" id="dark_mode_label">Dark</label>
+        </div>
+
+        <script>
+            function operational(){
+               var x= document.getElementById("my_button")
+               if(a.checked==true)
+               {
+                
+                // window.alert("light mode")
+                document.body.style.backgroundColor = "white"
+                // document.getElementById("b").style.display = "none";
+                // document.getElementById("dark_mode_label").style.display="none"
+                document.getElementById("b").style.opacity = "0.5";
+                document.getElementById("dark_mode_label").style.opacity = "0.6";
+
+                 
+               }
+               else if(b.checked==true)
+               {
+               
+                //  window.alert("dark mode")
+                // document.body.style.backgroundColor = "black";
+                document.body.style.backgroundColor = "lightblue";
+
+                //  document.getElementById("a").style.display = "none"
+                //  document.getElementById("light_mode_label").style.display="none"
+                document.getElementById("a").style.opacity = "0.5";
+                document.getElementById("light_mode_label").style.opacity = "0.6";
+                // document.getElementById("b").style.borderTopRightRadius = "25"; 
+
+
+
+                    
+
+               }
+            }
+        </script>
+    <!-- </div> -->
+</body>
+</html>
